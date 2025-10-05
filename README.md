@@ -27,7 +27,7 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 2. **📊 Data Processing**: Raw satellite data cleaned and processed into structured CSV files
 3. **🗺️ Geographic Coverage**: Three key Oman locations - Muscat, Salalah, Musandam
 4. **📈 Data Volume**: 72,000+ processed data points spanning multiple years
-5. **🔄 Update Frequency**: Regular data refreshing from NASA EarthData API
+5. **🔄 Update Frequency**: Regular data from NASA EarthData
 
 ### 🎯 ML Model Training & Selection
 
@@ -43,7 +43,6 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 
 - **🤖 AI-Powered Predictions**: Scientifically-trained ML models for PM2.5 & PM10
 - **🛩️ Aviation Safety**: Flight visibility, turbulence risk, and safety score calculations
-- **🌍 Weather Integration**: Real-time data fusion with OpenWeatherMap API
 - **📊 Interactive Dashboard**: Modern R Shiny interface with real-time updates
 - **🗺️ Multi-Location Coverage**: Comprehensive monitoring across Oman region
 - **⏰ 48-Hour Forecasting**: Extended predictions for planning and safety management
@@ -57,7 +56,7 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 
 ### 🤖 **Machine Learning & Data Processing**
 - `forecasting_system.py`: 48-hour sequential prediction system
-- `datacollection.py`: NASA EarthData API integration utilities
+- `datacollection.py`: NASA EarthData integration utilities
 - `dataset.py`: Data processing and CSV generation tools
 - `netcdf4_TO_CSV.py`: NetCDF to CSV conversion for NASA MERRA-2 data
 
