@@ -1,6 +1,26 @@
-# Enhanced Aviation Dashboard
+<div align="center">
+  <img src="Skylogic.PNG" alt="SkyLogic Logo" width="400"/>
+</div>
 
-A real-time air quality and aviation safety monit## Files
+# SkyLogic - Aviation Safety Dashboard
+
+🚁 **Real-time Aviation Safety Dashboard** for Oman airports with ML-powered air quality predictions and weather forecasting.
+
+[![GitHub](https://img.shields.io/badge/GitHub-SkyLogic-blue?logo=github)](https://github.com/MrR3B/Skylogic)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![R](https://img.shields.io/badge/R-Shiny-blue?logo=r)](https://shiny.rstudio.com/)
+[![Python](https://img.shields.io/badge/Python-ML-yellow?logo=python)](https://python.org/)
+
+## 🌟 Key Features
+
+- **🤖 AI-Powered Predictions**: ML models with 85.2% accuracy for PM2.5 forecasting
+- **🛩️ Aviation Safety Monitoring**: Real-time flight safety risk assessment  
+- **🌍 Real-time Weather Integration**: Live data from OpenWeatherMap API
+- **📊 Interactive Dashboard**: Modern R Shiny interface with real-time updates
+- **🗺️ Multi-Location Coverage**: Muscat, Salalah, Musandam airports
+- **⏰ 48-Hour Forecasting**: Sequential ML predictions for planning
+
+## 📁 Files
 
 - `enhanced_aviation_dashboard.R`: Main dashboard application with ML integration
 - `simple_ml_predictor.py`: ML prediction service (85.2% R² accuracy models)
