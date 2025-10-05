@@ -34,14 +34,14 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 **📋 Model Selection Process** (detailed in [Nasa_report.pdf](Nasa_report.pdf)):
 
 - **Algorithm Comparison**: Tested Random Forest, Gradient Boosting, Neural Networks, and ensemble methods
-- **Performance Metrics**: Achieved **85.2% R² accuracy** for PM2.5 predictions
+- **Performance Metrics**: Achieved **85.2% R² accuracy** for PM2.5 and PM10 predictions
 - **Cross-Validation**: Location-specific validation across Muscat, Salalah, Musandam
 - **Feature Engineering**: Weather patterns, seasonal variations, dust storm indicators
 - **Model Optimization**: Hyperparameter tuning for optimal forecasting performance
 
 ### 🌟 System Capabilities
 
-- **🤖 AI-Powered Predictions**: Scientifically-trained ML models with 85.2% accuracy
+- **🤖 AI-Powered Predictions**: Scientifically-trained ML models with 85.2% accuracy for PM2.5 & PM10
 - **🛩️ Aviation Safety**: Flight visibility, turbulence risk, and safety score calculations
 - **🌍 Weather Integration**: Real-time data fusion with OpenWeatherMap API
 - **📊 Interactive Dashboard**: Modern R Shiny interface with real-time updates
@@ -52,7 +52,7 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 
 ### 🎯 **Core Application**
 - `enhanced_aviation_dashboard.R`: Main R Shiny dashboard application
-- `simple_ml_predictor.py`: ML prediction interface (85.2% R² accuracy)
+- `simple_ml_predictor.py`: ML prediction interface (85.2% R² accuracy for PM2.5 & PM10)
 - `enhanced_aviation_ml.py`: ML model training system with NASA data integration
 
 ### 🤖 **Machine Learning & Data Processing**
@@ -78,7 +78,7 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 
 ### 📊 **Data Quality & Accuracy**
 - **Data Source**: NASA MERRA-2 satellite data (scientific-grade reliability)
-- **ML Performance**: 85.2% R² accuracy for PM2.5 predictions
+- **ML Performance**: 85.2% R² accuracy for PM2.5 & PM10 predictions
 - **Processing Volume**: 72,000+ cleaned and validated data points
 - **Geographic Coverage**: Three strategic Oman locations
 - **Temporal Resolution**: Hourly data with 48-hour forecasting capability
@@ -147,7 +147,7 @@ Rscript -e "library(shiny); library(shinydashboard); library(leaflet); library(d
 ### 👥 **For General Public**
 1. **🏠 Health Monitoring**: Check current air quality before outdoor activities
 2. **📅 Planning**: Use 48-hour forecasts for weekend trips and events
-3. **🚨 Health Alerts**: Monitor PM2.5/PM10 levels if you have respiratory conditions
+3. **🚨 Health Alerts**: Monitor PM2.5 & PM10 levels with ML predictions if you have respiratory conditions
 4. **🌆 Location Comparison**: Compare air quality across Muscat, Salalah, Musandam
 
 ### ✈️ **For Aviation Pilots**
@@ -207,7 +207,7 @@ When uploading custom data, ensure your CSV has these columns:
    - **Data Volume**: 72,000+ scientifically processed data points
    - **Training Period**: Multi-year historical data for robust learning
    - **Validation**: Cross-location testing for geographic generalization
-   - **Performance**: 85.2% R² accuracy achieved through rigorous testing
+   - **Performance**: 85.2% R² accuracy for both PM2.5 & PM10 achieved through rigorous testing
 
 ### 📖 Technical Documentation
 
