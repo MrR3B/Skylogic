@@ -5,9 +5,9 @@
 air_quality_flight_safety_models.pkl
 
 # Large data files - Users provide their own
-data/*.csv
-*.csv
-!sample.csv  # Include sample template
+# Allow essential data files
+!data/*.csv
+!sample.csv
 
 # Python cache
 __pycache__/
