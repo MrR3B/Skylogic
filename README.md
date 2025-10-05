@@ -74,21 +74,6 @@ Our system processes **reliable, scientific-grade data** from NASA EarthData rep
 - `README.md`: This comprehensive guide
 - `ml_model_analysis.png`: ML performance visualization
 
-## 🔬 Technical Specifications
-
-### 📊 **Data Quality & Accuracy**
-- **Data Source**: NASA MERRA-2 satellite data (scientific-grade reliability)
-- **ML Performance**: PM2.5 & PM10 predictions
-- **Processing Volume**: 72,000+ cleaned and validated data points
-- **Geographic Coverage**: Three strategic Oman locations
-- **Temporal Resolution**: Hourly data with 48-hour forecasting capability
-
-### 🛠️ **Technical Features**
-- **Real-time Monitoring**: PM2.5, PM10, AQI calculations using EPA standards
-- **Aviation Metrics**: Visibility estimation, flight safety scoring, turbulence risk
-- **Interactive Visualization**: Hour-by-hour ML prediction with animation controls
-- **Data Integration**: NASA satellite data + OpenWeatherMap API fusion
-- **Cross-Platform**: R Shiny web interface accessible via any modern browser
 
 ## 🚀 Quick Start Guide
 
