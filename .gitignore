@@ -1,0 +1,72 @@
+# Large model files - Users must train locally
+*.pkl
+*.rds
+*.RData
+air_quality_flight_safety_models.pkl
+
+# Large data files - Users provide their own
+data/*.csv
+*.csv
+!sample.csv  # Include sample template
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# R files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# API keys and config
+config.py
+.env
+api_keys.txt
+*.key
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*~
+temp/
+tmp/
+
+# Model outputs
+models/
+results/
+plots/
+outputs/
+
+# NetCDF files (large satellite data)
+*.nc4
+*.nc
+*.hdf
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
